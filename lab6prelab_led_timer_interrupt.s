@@ -7,7 +7,7 @@
 .equ timer0_periodh, 12
 .equ timer0_snapl, 16
 .equ timer0_snaph, 20
-.equ tickspersec, 100000
+.equ tickspersec, 10000000
 .equ led, 0xff200000
 .global _start
 .text
